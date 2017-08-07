@@ -1,0 +1,168 @@
+/* line 1, style.scss */
+* {
+  margin: 0;
+  padding: 0; }
+
+/* line 5, style.scss */
+li {
+  list-style: none; }
+
+/* line 8, style.scss */
+html, body {
+  width: 100%;
+  height: 100%; }
+
+/* line 12, style.scss */
+body {
+  font-size: 16px; }
+
+/* line 15, style.scss */
+.index-header {
+  width: 100%;
+  height: 50px;
+  background: #fffs;
+  position: relative;
+  text-align: center; }
+  /* line 21, style.scss */
+  .index-header .list {
+    display: inline-block; }
+    /* line 23, style.scss */
+    .index-header .list span {
+      width: 70px;
+      height: 50px;
+      display: inline-block;
+      line-height: 50px; }
+    /* line 29, style.scss */
+    .index-header .list .line {
+      border-bottom: 2px solid red; }
+  /* line 33, style.scss */
+  .index-header .sel {
+    position: absolute;
+    top: 15px;
+    right: 10px;
+    color: #ccc; }
+
+/* line 40, style.scss */
+.index-content {
+  overflow: hidden;
+  flex: 1;
+  overflow-y: scroll; }
+  /* line 44, style.scss */
+  .index-content .nav {
+    width: 100%;
+    height: 60px;
+    background: #eee; }
+    /* line 48, style.scss */
+    .index-content .nav .nav-top {
+      display: inline-block;
+      width: 95%;
+      height: 40px;
+      margin-left: 7px;
+      border: 1px solid #ccc;
+      background: #fff;
+      margin-top: 10px;
+      border-radius: 8px; }
+      /* line 57, style.scss */
+      .index-content .nav .nav-top span {
+        width: 31%;
+        display: inline-block;
+        height: 40px;
+        text-align: center;
+        line-height: 40px; }
+      /* line 64, style.scss */
+      .index-content .nav .nav-top span:nth-child(2) {
+        border-left: 1px solid #ccc;
+        border-right: 1px solid #ccc; }
+      /* line 68, style.scss */
+      .index-content .nav .nav-top .curr {
+        background: red;
+        color: #fff; }
+  /* line 75, style.scss */
+  .index-content .content .one {
+    display: inline-block;
+    width: 100%;
+    height: 40px;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    line-height: 40px; }
+    /* line 82, style.scss */
+    .index-content .content .one span {
+      display: inline-block;
+      width: 25%;
+      text-align: center;
+      font-size: 14px;
+      border-left: 1px solid #ccc; }
+  /* line 92, style.scss */
+  .index-content .title {
+    width: 100%;
+    height: 100px;
+    position: relative;
+    margin-top: 20px; }
+    /* line 97, style.scss */
+    .index-content .title .left {
+      width: 57px;
+      height: 57px;
+      position: absolute;
+      left: 0;
+      top: 0; }
+    /* line 104, style.scss */
+    .index-content .title .top {
+      display: inline-block;
+      width: 90%;
+      margin-left: 20%;
+      border-bottom: none;
+      margin-top: 7px; }
+      /* line 110, style.scss */
+      .index-content .title .top .you {
+        width: 50px;
+        height: 30px;
+        border-radius: 20px;
+        border: 1px solid green; }
+    /* line 117, style.scss */
+    .index-content .title .bom {
+      width: 100%;
+      height: 50px;
+      border-bottom: none;
+      margin-top: 30px;
+      display: flex; }
+      /* line 123, style.scss */
+      .index-content .title .bom span {
+        width: 20%;
+        flex: 1;
+        font-weight: bold;
+        text-align: center;
+        border-left: 1px solid #ccc;
+        margin-top: 10px; }
+        /* line 130, style.scss */
+        .index-content .title .bom span small {
+          width: 100%;
+          display: inline-block; }
+      /* line 135, style.scss */
+      .index-content .title .bom .pics {
+        position: relative;
+        margin-top: 30px; }
+        /* line 138, style.scss */
+        .index-content .title .bom .pics img {
+          width: 60px;
+          height: 20px;
+          position: absolute;
+          bottom: 25px;
+          left: 6px; }
+
+/* line 149, style.scss */
+.index-footer {
+  width: 100%;
+  height: 40px;
+  background: black;
+  display: flex; }
+  /* line 154, style.scss */
+  .index-footer i {
+    width: 20%;
+    height: 40px;
+    flex: 1;
+    color: #fff;
+    font-size: 20px;
+    line-height: 40px;
+    text-align: center; }
+
+/*# sourceMappingURL=style.css.map */
